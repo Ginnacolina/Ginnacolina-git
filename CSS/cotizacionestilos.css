@@ -1,0 +1,144 @@
+/* Estilos CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Color de fondo blanco */
+
+}
+
+header {
+    background-color: #3b5998; /* Color azul corporativo */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 120px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    float: left; /* Coloca el logo a la izquierda */
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
+h2 {
+    text-align: center; /* Centra todos los títulos h2 */
+}
+
+nav {
+    background-color: #3b5998; /* Color de fondo del menú */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the horizontal navigation menu */
+nav ul li {
+    display: inline-block;
+}
+
+/* Style the links in the navigation menu */
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ece6e6f8; /* Color del texto */
+}
+
+/* Style the dropdown button */
+.dropdown .dropbtn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Color de fondo */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra */
+}
+
+/* Style the links inside the dropdown content */
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #0a0a0ae7; /* Color del texto */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón */
+}
+
+
+footer {
+    background-color: #3b5998; /* Color azul corporativo */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}/* Estilos para el contenedor de cotización */
+/* Estilos para el contenedor de cotización */
+#cotizacion-container {
+    width: 50%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para los campos del formulario */
+.campo {
+    margin-bottom: 20px; /* Espaciado inferior entre campos */
+}
+
+.campo label {
+    display: block; /* Mostrar cada etiqueta en una línea */
+    margin-bottom: 5px; /* Espaciado inferior entre etiquetas */
+}
+
+.campo input,
+.campo textarea,
+.campo button {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.campo button {
+    background-color:#3b5998; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambio de cursor al pasar sobre el botón */
+}
+
+.campo button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
